@@ -21,6 +21,15 @@
   align-items: center;
   justify-content: space-between;
   background: #03130b;
+  position: sticky;
+}
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
 }
 
 .nav ul li {
@@ -304,7 +313,7 @@ span {
 .video-control .video {
   display: flex;
   justify-content: center;
-  
+  flex-wrap: nowrap;
   
 }
 .youtube {
